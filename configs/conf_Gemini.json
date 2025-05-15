@@ -1,0 +1,10 @@
+{
+    "model":
+    {
+        "description":"just some memo here",
+        "model_name": "gemini-1.5-flash",
+        "template_type":"Gemini",
+        "api_key": "",
+        "system_msg": "You are a helpful assistant."
+    }
+}
