@@ -5,7 +5,6 @@ from openai import OpenAI
 def load_image(image_path):
     # load image to mime_type="image/jpeg" and base64 encode
     
-
     with open(image_path, "rb") as image_file:
         b64_image = base64.b64encode(image_file.read()).decode("utf-8")
 

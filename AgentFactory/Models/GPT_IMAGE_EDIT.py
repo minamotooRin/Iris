@@ -110,7 +110,6 @@ class GPT_IMAGE_EDIT(MLLM_remote):
             prompt = history
         )
         
-
         self.input_tokens += response.usage.input_tokens
         self.output_tokens += response.usage.output_tokens
 
