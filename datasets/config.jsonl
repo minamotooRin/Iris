@@ -1,0 +1,18 @@
+{
+    "model":"Image1",
+    "pipeline":"pipe1",
+    "language_pair":"en2ja",
+    "dir":{
+        "from": "path/to/source",
+        "to": "path/to/source"
+    }
+},
+{
+    "model":"Step1X",
+    "pipeline":"pipe2",
+    "language_pair":"in2ja",
+    "dir":{
+        "from": "path/to/source",
+        "to": "path/to/source"
+    }
+}

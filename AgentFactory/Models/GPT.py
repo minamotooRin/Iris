@@ -34,8 +34,8 @@ class GPT(MLLM_remote):
         self.PRICE = {
             "gpt-4o":
             {
-                "input": 5/1000000,
-                "output": 20/1000000,
+                "input": 2.5/1000000,
+                "output": 10/1000000,
             },
             "openai-o3":
             {
