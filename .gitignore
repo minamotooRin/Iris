@@ -1,2 +1,4 @@
 download_images/
 __pycache__/
+output/
+log/
